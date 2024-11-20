@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(18, 17, 20);
+    font-family: Arial, Helvetica, sans-serif;
+   padding-top: 150px;
+    margin: 0; 
+    
+}
+H1 {
+   display: flex;
+   justify-content: center;
+  color: antiquewhite;
+  cursor: context-menu;
+  font-size: 40px;
+ 
+}
+
+.des {
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+}
+.descarga {
+    width: 250px;       
+    height: 250px;      
+    background-color: #b3f6ff; 
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+  inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+  0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+  0px 0px 180px 0px #23a4cc;
+ 
+}
+
+.descarga img {
+  display: flex;
+  justify-content: center;
+  width: 250px;       
+    height: 250px; 
+   
+}

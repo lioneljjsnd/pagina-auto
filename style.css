@@ -1,0 +1,249 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0; 
+  padding: 0; 
+  background-color: #ffffff;
+  overflow-x: hidden;
+  
+}
+
+.navegacion {
+ background-color: #ffffff;
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box; 
+  height: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0,0.3);
+  display: flex;
+  justify-content: center; 
+  align-items: flex-end; 
+  width: 100%; 
+  padding-top: 60px;
+  gap: 0;
+  position: fixed;
+  top: 0;
+ 
+}
+h2 {
+  display: flex;
+justify-content: left;
+align-items: flex-start;
+}
+
+.chappie {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  padding-left: 24px;
+align-items: flex-start;
+color: #23a4cc;
+cursor: context-menu;
+font-size: 20px;
+}
+
+.navegacion button {
+  
+  background: none; 
+  width: 90px; 
+  height: 50px; 
+  border-color: #A47CF3; 
+  color: #AAAAAA; 
+  padding: 10px; 
+  margin: 0; 
+  border: 2px solid #A47CF3; 
+  gap: 10px 20px;
+  cursor: pointer;
+
+  font-size: 17px;
+  color: grey;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  display: inline-flex;
+  align-items: center;
+
+}
+
+
+button:focus,
+button:hover {
+  color: white;
+}
+
+button:focus:after,
+button:hover:after {
+  width: 100%;
+  left: auto; 
+}
+
+button:after {
+  content: "";
+  pointer-events: none;
+  bottom: 0px;
+  right: auto;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 1.7px;
+  background-color: #343235;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 500ms;
+  transition-property: width, right;
+}
+
+.navegacion:hover button {
+  color: #272427;
+  transition: all 250ms ease-in-out ;
+
+}
+.descarga {
+  line-height: 1;
+  background-color: transparent;
+  cursor: pointer;
+  gap: 0.35em;
+  padding: 0.75em 1em;
+  padding-right: 1.25em;
+  color: #fff;
+  border: 1px solid transparent;
+  font-weight: 700;
+  border-radius: 2em;
+  font-size: 1rem;
+  box-shadow: 0 0.7em 1.5em -0.5em hsla(254, 6%, 40%, 0.745);
+  transition: transform 0.3s;
+  background-color: #23a4cc;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desca {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.descarga__icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.descarga button:hover {
+  border-color: #f4f5f2;
+}
+
+.descarga button:active {
+  transform: scale(0.98);
+  box-shadow: 0 0.5em 1.5em -0.5em hsla(249, 62%, 51%, 0.745);
+}
+
+ section {
+  padding-top: 90px;
+  padding-left: 24px;
+  font-size: 20px;
+  padding-right: 80px;
+ }
+
+ .futer {
+ 
+ background-color: #23a4cc;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.futer img {
+  padding-top: 10px;
+  padding-left: 900px;
+  width: 90px;
+  height: 90px;
+ 
+}
+
+.div {
+  display: flex;
+  gap: 20px; 
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.columna p {
+  padding-top: 10px;
+  margin: 5px 0; 
+  padding-left: 15px;
+}
+
+
+
+#informacion {
+  padding-top: 150px;
+}
+
+
+
+#imgchappie {
+  display: flex;
+  gap: 10px; 
+}
+
+#imgchappie img {
+  width: 100%; 
+  transition: transform 0.3s ease; 
+  cursor: pointer; 
+    width: 400px; 
+    height: auto; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0,0.3);
+    border: 1px solid #000; 
+    border-radius: 2px;
+}
+
+
+#imgchappie img:hover {
+  transform: scale(1.1); 
+}
+
+
+#grup {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+#grup img{ 
+  width: 600px; 
+  height: auto;
+  display: block;
+  margin-bottom: 20px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+  border: 1px solid #000; 
+  border-radius: 8px;
+  
+}
+
+.descripcion {
+  width: 100%; 
+  max-width: 800px; 
+  margin-top: 20px; 
+  text-align: left; 
+}
+
+.descripcion p {
+  margin: 0 0 10px 0; 
+}
+
+h2 {
+  margin-bottom: 20px; 
+}
